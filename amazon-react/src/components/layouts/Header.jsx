@@ -48,7 +48,7 @@ export default function Header() {
 
         <Link to="/cart" className="flex items-center gap-1 hover:underline">
           <FaShoppingCart />
-          <span className="text-sm">({totalItems})</span> {/* ✅ Dynamic count */}
+          <span className="text-sm">({totalItems})</span>
         </Link>
       </div>
     </header>

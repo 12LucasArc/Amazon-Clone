@@ -1,6 +1,6 @@
-
-
+import Header from '../../layouts/Header';
 import { useCart } from "./CartContext";
+import CheckoutButton from '../../checkout/CheckoutButton';
 
 export default function CartPage() {
   const { cartItems, updateQty, removeFromCart } = useCart();
@@ -8,6 +8,11 @@ export default function CartPage() {
   const total = cartItems.reduce((sum, item) => sum + item.price * item.qty, 0);
 
   return (
+
+    <>
+    
+    <Header />
+    
     <div className="p-6 max-w-4xl mx-auto">
       <h2 className="text-2xl font-semibold mb-4">Shopping Cart</h2>
 
@@ -44,10 +49,11 @@ export default function CartPage() {
             Total: ${total.toFixed(2)}
           </div>
           <button className="bg-green-500 text-white py-2 px-4 rounded mt-4 hover:bg-green-600">
-            Proceed to Checkout
+            <CheckoutButton />
           </button>
         </div>
       )}
     </div>
+    </>
   );
 }
