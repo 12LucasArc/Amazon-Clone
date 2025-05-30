@@ -48,9 +48,7 @@ export default function CartPage() {
           <div className="text-right text-xl font-bold mt-4">
             Total: ${total.toFixed(2)}
           </div>
-          <button className="bg-green-500 text-white py-2 px-4 rounded mt-4 hover:bg-green-600">
-            <CheckoutButton />
-          </button>
+          <CheckoutButton />
         </div>
       )}
     </div>
