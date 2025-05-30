@@ -1,5 +1,5 @@
 import StripeCheckout from "react-stripe-checkout";
-import { useCart } from "../cart/CartContext";
+import { useCart } from "../../components/features/cart/CartContext";
 
 export default function CheckoutButton() {
   const { cartItems } = useCart();

@@ -51,6 +51,56 @@ const productData = [
     image:
       "https://images-na.ssl-images-amazon.com/images/I/61LtuGzXeaL._AC_SL1500_.jpg",
   },
+
+   {
+    id: "1",
+    title: "Apple iPhone 14 Pro Max",
+    price: 1099.99,
+    description: "6.7-inch Super Retina XDR display, A16 Bionic chip, Pro camera system.",
+    rating: 4.8,
+    image: "https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907-geo_inline.jpg.large.jpg",
+  },
+  {
+    id: "2",
+    title: "Samsung Galaxy S23 Ultra",
+    price: 1199.99,
+    description: "6.8-inch Dynamic AMOLED display, Snapdragon 8 Gen 2, 200MP Camera.",
+    rating: 4.7,
+    image: "https://images.samsung.com/is/image/samsung/p6pim/africa_en/sm-s918blicafc/gallery/africa-en-galaxy-s23-s918-446698-sm-s918blicafc-535214024?$624_624_PNG$",
+  },
+  {
+    id: "3",
+    title: "Sony WH-1000XM5 Wireless Headphones",
+    price: 349.99,
+    description: "Industry-leading noise cancellation, 30 hours battery life, premium sound quality.",
+    rating: 4.9,
+    image: "https://sony.scene7.com/is/image/sonyglobalsolutions/360-RA-category-icon-20221202?$S7Product$&fmt=png-alpha",
+  },
+  {
+    id: "4",
+    title: "Amazon Echo Dot (6th Gen)",
+    price: 59.99,
+    description: "Smart speaker with Alexa, improved sound and design.",
+    rating: 4.8,
+    image: "https://cdn.thewirecutter.com/wp-content/media/2024/07/smartspeakers-2048px-echospot.jpg?auto=webp&quality=75&width=1024",
+  },
+  {
+    id: "5",
+    title: "Nintendo Switch OLED Model",
+    price: 349.99,
+    description: "7-inch OLED screen, enhanced audio, wide adjustable stand.",
+    rating: 4.8,
+    image: "https://store.nintendo.co.za/cdn/shop/products/NSOLEDModel_White.png?v=1633947558",
+  },
+  {
+    id: "6",
+    title: "Dell XPS 13 Laptop",
+    price: 1299.99,
+    description: "13.4-inch FHD+ display, Intel i7 11th Gen, 16GB RAM, 512GB SSD.",
+    rating: 4.5,
+    image: "https://www.dellonline.co.za/cdn/shop/products/shopify-favicon_84a219cb-b427-41d2-89dd-a8a0445b3db5.png?v=1675883788",
+  }
+
 ];
 
 export default productData;
